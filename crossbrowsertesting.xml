@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel Suite" thread-count="3" parallel="tests">
+  <listeners>
+  	<listener class-name="org.opencart.utilities.ExtentReportManager"/>
+  </listeners>
+  <test name="Chrome Test">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="os" value="windows"/>
+    <classes>
+      <class name="org.opencart.testcases.TC001_RegistrationTest"/>
+      <class name="org.opencart.testcases.TC002_LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Edge Test">
+  <parameter name="browser" value="edge"/>
+  <parameter name="os" value="windows"/>
+    <classes>
+      <class name="org.opencart.testcases.TC001_RegistrationTest"/>
+      <class name="org.opencart.testcases.TC002_LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Firefox Test">
+  <parameter name="browser" value="firefox"/>
+  <parameter name="os" value="windows"/>
+    <classes>
+      <class name="org.opencart.testcases.TC001_RegistrationTest"/>
+      <class name="org.opencart.testcases.TC002_LoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

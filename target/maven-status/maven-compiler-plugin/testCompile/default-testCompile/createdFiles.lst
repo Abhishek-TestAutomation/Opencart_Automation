@@ -1,0 +1,8 @@
+org\opencart\base\BaseTest.class
+org\opencart\testcases\TC003_LoginTestDDT.class
+org\opencart\testcases\TC001_RegistrationTest.class
+org\opencart\utilities\DataProviders.class
+org\opencart\utilities\ExtentReportManager.class
+org\opencart\testcases\TC002_LoginTest.class
+org\opencart\utilities\ExcelUtility.class
+org\opencart\utilities\RandomDataGenerator.class

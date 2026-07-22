@@ -1,0 +1,5 @@
+org\opencart\pages\LoginPage.class
+org\opencart\pages\RegistrationPage.class
+org\opencart\pages\HomePage.class
+org\opencart\pages\MyAccountPage.class
+org\opencart\base\BasePage.class

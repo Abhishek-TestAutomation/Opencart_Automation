@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-07-19T20:37:58 IST" name="Grid-Docker-Tests" finished-at="2026-07-19T20:41:14 IST" duration-ms="196418">
+    <groups>
+      <group name="Master">
+        <method signature="TC001_RegistrationTest.verify_account_Registration()[pri:0, instance:org.opencart.testcases.TC001_RegistrationTest@ba2f4ec]" name="verify_account_Registration" class="org.opencart.testcases.TC001_RegistrationTest"/>
+        <method signature="TC002_LoginTest.verifyLogin()[pri:0, instance:org.opencart.testcases.TC002_LoginTest@7a8c8dcf]" name="verifyLogin" class="org.opencart.testcases.TC002_LoginTest"/>
+        <method signature="TC001_RegistrationTest.verify_account_Registration()[pri:0, instance:org.opencart.testcases.TC001_RegistrationTest@6a2f6f80]" name="verify_account_Registration" class="org.opencart.testcases.TC001_RegistrationTest"/>
+        <method signature="TC002_LoginTest.verifyLogin()[pri:0, instance:org.opencart.testcases.TC002_LoginTest@45b4c3a9]" name="verifyLogin" class="org.opencart.testcases.TC002_LoginTest"/>
+        <method signature="TC001_RegistrationTest.verify_account_Registration()[pri:0, instance:org.opencart.testcases.TC001_RegistrationTest@291caca8]" name="verify_account_Registration" class="org.opencart.testcases.TC001_RegistrationTest"/>
+        <method signature="TC002_LoginTest.verifyLogin()[pri:0, instance:org.opencart.testcases.TC002_LoginTest@385e9564]" name="verifyLogin" class="org.opencart.testcases.TC002_LoginTest"/>
+      </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC002_LoginTest.verifyLogin()[pri:0, instance:org.opencart.testcases.TC002_LoginTest@7a8c8dcf]" name="verifyLogin" class="org.opencart.testcases.TC002_LoginTest"/>
+        <method signature="TC002_LoginTest.verifyLogin()[pri:0, instance:org.opencart.testcases.TC002_LoginTest@45b4c3a9]" name="verifyLogin" class="org.opencart.testcases.TC002_LoginTest"/>
+        <method signature="TC002_LoginTest.verifyLogin()[pri:0, instance:org.opencart.testcases.TC002_LoginTest@385e9564]" name="verifyLogin" class="org.opencart.testcases.TC002_LoginTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TC001_RegistrationTest.verify_account_Registration()[pri:0, instance:org.opencart.testcases.TC001_RegistrationTest@ba2f4ec]" name="verify_account_Registration" class="org.opencart.testcases.TC001_RegistrationTest"/>
+        <method signature="TC001_RegistrationTest.verify_account_Registration()[pri:0, instance:org.opencart.testcases.TC001_RegistrationTest@6a2f6f80]" name="verify_account_Registration" class="org.opencart.testcases.TC001_RegistrationTest"/>
+        <method signature="TC001_RegistrationTest.verify_account_Registration()[pri:0, instance:org.opencart.testcases.TC001_RegistrationTest@291caca8]" name="verify_account_Registration" class="org.opencart.testcases.TC001_RegistrationTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2026-07-19T20:37:58 IST" name="Linux-Chrome" finished-at="2026-07-19T20:39:07 IST" duration-ms="69146">
+      <class name="org.opencart.testcases.TC001_RegistrationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:org.opencart.testcases.TC001_RegistrationTest@ba2f4ec]" started-at="2026-07-19T20:37:58 IST" name="setUp" finished-at="2026-07-19T20:38:49 IST" duration-ms="51214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_account_Registration()[pri:0, instance:org.opencart.testcases.TC001_RegistrationTest@ba2f4ec]" started-at="2026-07-19T20:38:49 IST" name="verify_account_Registration" finished-at="2026-07-19T20:38:54 IST" duration-ms="5145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_Registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.opencart.testcases.TC001_RegistrationTest@ba2f4ec]" started-at="2026-07-19T20:38:54 IST" name="tearDown" finished-at="2026-07-19T20:38:55 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.opencart.testcases.TC001_RegistrationTest -->
+      <class name="org.opencart.testcases.TC002_LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:org.opencart.testcases.TC002_LoginTest@7a8c8dcf]" started-at="2026-07-19T20:38:55 IST" name="setUp" finished-at="2026-07-19T20:38:59 IST" duration-ms="4220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:0, instance:org.opencart.testcases.TC002_LoginTest@7a8c8dcf]" started-at="2026-07-19T20:38:59 IST" name="verifyLogin" finished-at="2026-07-19T20:39:07 IST" duration-ms="7722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.opencart.testcases.TC002_LoginTest@7a8c8dcf]" started-at="2026-07-19T20:39:07 IST" name="tearDown" finished-at="2026-07-19T20:39:07 IST" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.opencart.testcases.TC002_LoginTest -->
+    </test> <!-- Linux-Chrome -->
+    <test started-at="2026-07-19T20:39:08 IST" name="Linux-Edge" finished-at="2026-07-19T20:40:01 IST" duration-ms="53147">
+      <class name="org.opencart.testcases.TC001_RegistrationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:org.opencart.testcases.TC001_RegistrationTest@6a2f6f80]" started-at="2026-07-19T20:39:08 IST" name="setUp" finished-at="2026-07-19T20:39:37 IST" duration-ms="28724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_account_Registration()[pri:0, instance:org.opencart.testcases.TC001_RegistrationTest@6a2f6f80]" started-at="2026-07-19T20:39:37 IST" name="verify_account_Registration" finished-at="2026-07-19T20:39:47 IST" duration-ms="10699" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_Registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.opencart.testcases.TC001_RegistrationTest@6a2f6f80]" started-at="2026-07-19T20:39:47 IST" name="tearDown" finished-at="2026-07-19T20:39:48 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.opencart.testcases.TC001_RegistrationTest -->
+      <class name="org.opencart.testcases.TC002_LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:org.opencart.testcases.TC002_LoginTest@45b4c3a9]" started-at="2026-07-19T20:39:48 IST" name="setUp" finished-at="2026-07-19T20:39:53 IST" duration-ms="5374" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:0, instance:org.opencart.testcases.TC002_LoginTest@45b4c3a9]" started-at="2026-07-19T20:39:53 IST" name="verifyLogin" finished-at="2026-07-19T20:40:00 IST" duration-ms="7019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.opencart.testcases.TC002_LoginTest@45b4c3a9]" started-at="2026-07-19T20:40:00 IST" name="tearDown" finished-at="2026-07-19T20:40:01 IST" duration-ms="1053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.opencart.testcases.TC002_LoginTest -->
+    </test> <!-- Linux-Edge -->
+    <test started-at="2026-07-19T20:40:02 IST" name="Linux-Firefox" finished-at="2026-07-19T20:41:14 IST" duration-ms="72150">
+      <class name="org.opencart.testcases.TC001_RegistrationTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:org.opencart.testcases.TC001_RegistrationTest@291caca8]" started-at="2026-07-19T20:40:02 IST" name="setUp" finished-at="2026-07-19T20:40:34 IST" duration-ms="32039" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verify_account_Registration()[pri:0, instance:org.opencart.testcases.TC001_RegistrationTest@291caca8]" started-at="2026-07-19T20:40:34 IST" name="verify_account_Registration" finished-at="2026-07-19T20:40:49 IST" duration-ms="14627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_Registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.opencart.testcases.TC001_RegistrationTest@291caca8]" started-at="2026-07-19T20:40:49 IST" name="tearDown" finished-at="2026-07-19T20:40:50 IST" duration-ms="1751" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.opencart.testcases.TC001_RegistrationTest -->
+      <class name="org.opencart.testcases.TC002_LoginTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:org.opencart.testcases.TC002_LoginTest@385e9564]" started-at="2026-07-19T20:40:50 IST" name="setUp" finished-at="2026-07-19T20:41:01 IST" duration-ms="10607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Linux]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLogin()[pri:0, instance:org.opencart.testcases.TC002_LoginTest@385e9564]" started-at="2026-07-19T20:41:01 IST" name="verifyLogin" finished-at="2026-07-19T20:41:11 IST" duration-ms="10522" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.opencart.testcases.TC002_LoginTest@385e9564]" started-at="2026-07-19T20:41:11 IST" name="tearDown" finished-at="2026-07-19T20:41:14 IST" duration-ms="2544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.opencart.testcases.TC002_LoginTest -->
+    </test> <!-- Linux-Firefox -->
+  </suite> <!-- Grid-Docker-Tests -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="os" value="windows"/>
+    <parameter name="browser" value="abhishek"/>
+    <classes>
+      <class name="org.opencart.testcases.TC001_RegistrationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verify_account_Registration"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- org.opencart.testcases.TC001_RegistrationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
